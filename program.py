@@ -28,3 +28,8 @@ while season == False:
         print("Sommar! shorts och flip flops")
     else:
         season = False
+if season == "höst" or season == "vinter" or season =="vår":
+    print("Du ska ta bussen till skolan")
+elif season == "sommar":
+    print("Du ska cykla till skolan")
+
